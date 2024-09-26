@@ -41,7 +41,7 @@ This is a multiplayer chat system built using Godot Engine 4.3 that supports up 
    Once the server is running, you should see output indicating that the server has started and is listening for client connections.
 
 3. **Launching Clients**  
-   You can launch multiple clients to connect to the server (up to 10 clients). The client executable is located in the `Executables` folder.
+   You can launch multiple clients to connect to the server (up to 100 clients). The client executable is located in the `Executables` folder.
 
    - On **Windows**: Double-click `Client.exe`.
    - On **Linux** or **Mac**: Run the executable from the terminal.
