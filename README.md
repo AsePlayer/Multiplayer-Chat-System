@@ -5,7 +5,7 @@ This is a multiplayer chat system built using Godot Engine 4.3 that supports up 
 ## Features
 
 - Server-client architecture using Godot's ENet networking.
-- Up to 10 clients can connect simultaneously.
+- Up to 100 clients can connect simultaneously.
 - Simple chat interface for communication between clients.
 - Command system for clients to execute server-side commands.
 - Direct message functionality between users.
@@ -16,7 +16,7 @@ This is a multiplayer chat system built using Godot Engine 4.3 that supports up 
 ### Prerequisites
 
 - [Godot Engine 4.3](https://godotengine.org/download) (only required if you want to modify the project; for running executables, you don't need Godot installed).
-- The following executables are available in the `Executables` folder:
+- The following executables are available in the `Build` folder:
   - `Server.console` (Launch the server from here)
   - `Client` (Launch multiple instances to connect clients to the server)
   - `Server` (Only for running the server without a console, **not recommended** for development purposes).
@@ -27,7 +27,7 @@ This is a multiplayer chat system built using Godot Engine 4.3 that supports up 
    Clone the repository or download it as a zip file from GitHub.
 
    ```bash
-   git clone https://github.com/yourusername/multiplayer-chat-system.git
+   git clone https://github.com/AsePlayer/Online-Chat-Room
    ```
 
 2. **Running the Server**  
@@ -41,7 +41,7 @@ This is a multiplayer chat system built using Godot Engine 4.3 that supports up 
    Once the server is running, you should see output indicating that the server has started and is listening for client connections.
 
 3. **Launching Clients**  
-   You can launch multiple clients to connect to the server (up to 10 clients). The client executable is located in the `Executables` folder.
+   You can launch multiple clients to connect to the server (up to 100 clients). The client executable is located in the `Executables` folder.
 
    - On **Windows**: Double-click `Client.exe`.
    - On **Linux** or **Mac**: Run the executable from the terminal.
@@ -80,12 +80,12 @@ To shut down the server, close the `Server.console` window or stop the process f
   - `Server`: Runs the server without a console (not recommended for testing).
   - `Client`: Client executable to connect to the server.
 
-- **src/**  
+- **Scripts**  
   Contains the source code for the server and client (`server.gd` and `ui.gd`) if you want to explore or modify it.
 
 ## Usage Notes
 
-- The server can handle up to 10 clients simultaneously. Each client is assigned a default username when they connect, which can be changed using the `/name` command.
+- The server can handle up to 100 clients simultaneously. Each client is assigned a default username when they connect, which can be changed using the `/name` command.
 - Use `/help` to familiarize yourself with available commands.
 - You can send private messages to specific users using the `/dm` command.
 
