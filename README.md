@@ -15,7 +15,7 @@ This is a multiplayer chat system built using Godot Engine 4.3 that supports up 
 
 ### Prerequisites
 
-- For running executables, you don't need Godot installed.
+- [Godot Engine 4.3](https://godotengine.org/download) (only required if you want to modify the project; for running executables, you don't need Godot installed).
 - The following executables are available in the `Build` folder:
   - `Server.console` (Launch the server from here)
   - `Client` (Launch multiple instances to connect clients to the server)
