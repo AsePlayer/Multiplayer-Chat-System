@@ -27,7 +27,7 @@ This is a multiplayer chat system built using Godot Engine 4.3 that supports up 
    Clone the repository or download it as a zip file from GitHub.
 
    ```bash
-   git clone https://github.com/yourusername/multiplayer-chat-system.git
+   git clone https://github.com/AsePlayer/Online-Chat-Room
    ```
 
 2. **Running the Server**  
