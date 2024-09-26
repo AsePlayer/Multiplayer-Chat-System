@@ -31,7 +31,7 @@ This is a multiplayer chat system built using Godot Engine 4.3 that supports up 
    ```
 
 2. **Running the Server**  
-   Navigate to the `Executables` folder and run the `Server.console` executable. This will launch the dedicated server.
+   Navigate to the `Builds` folder and run the `Server.console` executable. This will launch the dedicated server.
 
    **Important**: Always launch the server using `Server.console` instead of `Server` to ensure you can easily shut it down when needed.
 
@@ -43,7 +43,7 @@ This is a multiplayer chat system built using Godot Engine 4.3 that supports up 
    ![4 Clients Demo](Screenshots/client_and_server.gif)
 
 4. **Launching Clients**  
-   You can launch multiple clients to connect to the server (up to 100 clients). The client executable is located in the `Executables` folder.
+   You can launch multiple clients to connect to the server (up to 100 clients). The client executable is located in the `Builds` folder.
 
    - On **Windows**: Double-click `Client.exe`.
    - On **Linux** or **Mac**: Run the executable from the terminal.
@@ -78,7 +78,7 @@ To shut down the server, close the `Server.console` window or stop the process f
 
 ## File Structure
 
-- **Executables/**  
+- **Builds/**  
   This folder contains precompiled versions of the server and client:
   - `Server.console`: Use this to launch the server with an easy-to-shut-down console.
   - `Server`: Runs the server without a console (not recommended for testing).
