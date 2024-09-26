@@ -15,7 +15,7 @@ This is a multiplayer chat system built using Godot Engine 4.3 that supports up 
 
 ### Prerequisites
 
-- [Godot Engine 4.3](https://godotengine.org/download) (only required if you want to modify the project; for running executables, you don't need Godot installed).
+- For running executables, you don't need Godot installed.
 - The following executables are available in the `Build` folder:
   - `Server.console` (Launch the server from here)
   - `Client` (Launch multiple instances to connect clients to the server)
@@ -40,13 +40,17 @@ This is a multiplayer chat system built using Godot Engine 4.3 that supports up 
    
    Once the server is running, you should see output indicating that the server has started and is listening for client connections.
 
-3. **Launching Clients**  
+   ![4 Clients Demo](Screenshots/client_and_server.gif)
+
+4. **Launching Clients**  
    You can launch multiple clients to connect to the server (up to 100 clients). The client executable is located in the `Executables` folder.
 
    - On **Windows**: Double-click `Client.exe`.
    - On **Linux** or **Mac**: Run the executable from the terminal.
 
    Each client will connect to the server at the IP address `127.0.0.1` (localhost) on port `25566`. You can interact with the server and other clients through the chat interface.
+
+   ![4 Clients Demo](Screenshots/4_clients.gif)
 
 ### Available Commands
 
